@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://c7.alamy.com/comp/T3W941/old-and-big-clock-hanging-on-a-wooden-wall-T3W941.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+
+}
+#currentTimeInGB{
+  border: 2px solid red;
+  color: blue;
+  margin: 40px;
+  padding: 20px;
+  font-size: 24px;
+}
+.container{
+  background-color: blanchedalmond;
+  border: 2px solid red;
+  color: blue;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  bottom: 20px;
+  left: 28%;
+  overflow: hidden;
+  width: 680px;
+}
+button{
+  color: black;
+  /* border: none; */
+  background-color: chartreuse;
+  text-decoration: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+.primary{
+  border: 1px dotted blueviolet;
+  /* margin-bottom: auto; */
+  padding-bottom: auto;
+  overflow: hidden;
+}
+
+#currentTimeInEG{
+  border: 2px solid red;
+  color: blue;
+  margin: 40px;
+  padding: 20px;
+  font-size: 24px;
+}
+#currentTimeInUS{
+  border: 2px solid red;
+  color: blue;
+  margin: 40px;
+  padding: 20px;
+  font-size: 24px;
+}
+footer{
+  position: absolute;
+  top: 100%;
+  
+}
